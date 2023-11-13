@@ -10,9 +10,14 @@ namespace Agustina_Checkpoint2
     {
         public string Description { get; set; }
 
-        public Star(string name, int number, string description):base(name,number)
+        public Star(string namePlayer, int number, string description):base(namePlayer,number)
         {
             Description = description;
+        }
+
+        public override string ToString()
+        {
+            return $"Role: {this.GetType().Name} || Name: {NamePlayer} || Number: {Number} || Description: {Description}";
         }
 
     }
