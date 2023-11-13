@@ -15,6 +15,9 @@
             };
 
             team.PrintTeam(team.Players);
+            team.SaveToFile("Jessheim.txt");
+            team.ReadFile("Jessheim.txt");
+
 
         }
     }

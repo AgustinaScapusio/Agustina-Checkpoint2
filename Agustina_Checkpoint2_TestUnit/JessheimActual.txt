@@ -1,0 +1,5 @@
+Jessheim Idrettsklubb
+Role: Player || Name: Agustina || #2
+Role: Player || Name: Alejandro || #4
+Role: Player || Name: Juan Pablo || #5
+Role: Star || Name: Iman || #10 || Description: very active

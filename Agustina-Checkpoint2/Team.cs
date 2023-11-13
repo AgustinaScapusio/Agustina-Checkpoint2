@@ -12,7 +12,9 @@ namespace Agustina_Checkpoint2
     {
         public string? Name { get; set; }
 
-        public List<Player> Players {  get; set; }
+        public List<Player>? Players {  get; set; }
+
+        string docPath = AppContext.BaseDirectory.Substring(0, AppContext.BaseDirectory.LastIndexOf(@"\bin") + 1);
 
         public Team(string name)
         {
@@ -39,6 +41,31 @@ namespace Agustina_Checkpoint2
         {
             if (obj is Team other) { return Equals(this, other); }
             else { return false; }
+        }
+
+        public void SaveToFile(string fileName)
+        {
+            using (StreamWriter sw = new StreamWriter(docPath + fileName))
+            {
+                sw.WriteLine($"{Name}");
+                foreach (var player in Players)
+                {
+                    sw.WriteLine(player);
+                }
+            };
+        }
+        public List<string> ReadFile(string fileName)
+        {
+            using (StreamReader sr = new StreamReader(docPath + fileName))
+            {
+                string newAttendants = sr.ReadToEnd();
+                List<string> result = newAttendants.Split("/n").ToList();
+                foreach (var att in result)
+                {
+                    Console.WriteLine(att);
+                }
+                return result;
+            };
         }
     }
 }
