@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agustina-Checkpoint2", "Agustina-Checkpoint2\Agustina-Checkpoint2.csproj", "{C2B9D524-5796-4ED6-A0B0-966A5CB2600B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agustina_Checkpoint2_TestUnit", "Agustina_Checkpoint2_TestUnit\Agustina_Checkpoint2_TestUnit.csproj", "{648F11F8-6B22-4E44-8E44-BFB252849E42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C2B9D524-5796-4ED6-A0B0-966A5CB2600B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B9D524-5796-4ED6-A0B0-966A5CB2600B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B9D524-5796-4ED6-A0B0-966A5CB2600B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648F11F8-6B22-4E44-8E44-BFB252849E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648F11F8-6B22-4E44-8E44-BFB252849E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648F11F8-6B22-4E44-8E44-BFB252849E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648F11F8-6B22-4E44-8E44-BFB252849E42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
