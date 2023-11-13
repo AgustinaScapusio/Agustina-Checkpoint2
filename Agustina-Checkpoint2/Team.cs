@@ -67,5 +67,16 @@ namespace Agustina_Checkpoint2
                 return result;
             };
         }
+        // Tried to make a operator overload method, but keeps sending error in "==" not sure why :/
+        //public static bool operator ==(List<Player> players,  List<Player>other)
+        //{
+        //    bool IsEqual;
+        //    if(players.Count == other.Count) {
+        //        IsEqual = true;
+        //    }
+        //    else { IsEqual = false; }
+        //    return IsEqual;
+            
+        //}
     }
 }
