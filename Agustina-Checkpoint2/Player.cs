@@ -8,7 +8,7 @@ namespace Agustina_Checkpoint2
 {
     public class Player 
     {
-        public string NamePlayer { get; set; }
+        public string? NamePlayer { get; set; }
         public int Number {  get; set; }
 
         public Player(string namePlayer, int number)
@@ -19,7 +19,7 @@ namespace Agustina_Checkpoint2
         }
         public override string ToString()
         {
-            return $"Role: {this.GetType().Name} || Name: {NamePlayer} || Number: {Number}";
+            return $"Role: {this.GetType().Name} || Name: {NamePlayer} || #{Number}";
         }
     }
 }

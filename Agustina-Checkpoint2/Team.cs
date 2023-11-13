@@ -18,6 +18,16 @@ namespace Agustina_Checkpoint2
             Name = name;
         }
 
+        public void PrintTeam(List<Player>players)
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine("__________________");
+            foreach (Player p in players)
+            {
+                Console.WriteLine(p.ToString());
+            }
+
+        }
         public override string ToString()
         {
             return $"Role: {this.GetType().Name} || Name: {Name}";

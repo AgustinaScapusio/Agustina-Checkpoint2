@@ -17,7 +17,7 @@ namespace Agustina_Checkpoint2
 
         public override string ToString()
         {
-            return $"Role: {this.GetType().Name} || Name: {NamePlayer} || Number: {Number} || Description: {Description}";
+            return $"Role: {this.GetType().Name} || Name: {NamePlayer} || #{Number} || Description: {Description}";
         }
 
     }
